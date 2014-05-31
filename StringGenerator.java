@@ -70,62 +70,90 @@ public class StringGenerator {
 
 	static String Cyrillic1() { // ь я а о
 
-		char chars[] = new char[7];
-		chars[0] = ' ';
-		chars[1] = ' ';
-		chars[2] = ' ';
-		chars[3] = 'ь';
-		chars[4] = 'я';
-		chars[5] = 'а';
-		chars[6] = 'о';
+		String words[] = new String[12];
+		words[0] = "аоо";
+		words[1] = "аяо";
+		words[2] = "оья";
+		words[3] = "ьооа";
+		words[4] = "аяо";
+		words[5] = "аа";
+		words[6] = "ао";
+		words[7] = "яо";
+		words[8] = "ьоя";
+		words[9] = "аяа";
+		words[10] = "ояа";
+		words[11] = "ао";
 
-		return stringGenerator(chars);
+		return stringGenerator(words);
 	}
 
 	static String Cyrillic2() { // т н в м
 
-		char chars[] = new char[14];
-		chars[0] = ' ';
-		chars[1] = ' ';
-		chars[2] = ' ';
-		chars[3] = ' ';
-		chars[4] = ' ';
-		chars[5] = 'о';
-		chars[6] = 'т';
-		chars[7] = 'н';
-		chars[8] = 'в';
-		chars[9] = 'м';
-		chars[10] = 'ь';
-		chars[11] = 'а';
-		chars[12] = 'я';
-		chars[13] = 'а';
-
-		return stringGenerator(chars);
+		String words [] = new String[28];
+		words[0] = "тан";
+		words[1] = "нат";
+		words[2] = "нова";
+		words[3] = "нов";
+		words[4] = "ман";
+		words[5] = "мант";
+		words[6] = "ван";
+		words[7] = "ява";
+		words[8] = "янав";
+		words[9] = "автомат";
+		words[10] = "мана";
+		words[11] = "аман";
+		words[12] = "ват";
+		words[13] = "това";
+		words[14] = "мото";
+		words[15] = "мона";
+		words[16] = "ята";
+		words[17] = "ято";
+		words[18] = "вот";
+		words[19] = "нато";
+		words[20] = "манта";
+		words[21] = "мята";
+		words[22] = "тонь";
+		words[22] = "навона";
+		words[23] = "мамя";
+		words[24] = "мат";
+		words[25] = "нота";
+		words[26] = "анатом";
+		words[27] = "атом";
+		return stringGenerator(words);
 	}
 
 	static String Cyrillic3() { // г,ж,ч
 
-		char chars[] = new char[18];
-		chars[0] = ' ';
-		chars[1] = ' ';
-		chars[2] = ' ';
-		chars[3] = ' ';
-		chars[4] = 'а';
-		chars[5] = 'о';
-		chars[6] = 'т';
-		chars[7] = 'н';
-		chars[8] = 'в';
-		chars[9] = 'м';
-		chars[10] = 'ж';
-		chars[11] = 'ч';
-		chars[12] = 'г';
-		chars[13] = 'г';
-		chars[14] = 'ж';
-		chars[15] = 'ч';
-		chars[16] = 'ж';
-		chars[17] = 'я';
+		String words[] = new String[27];
+		words[0] = "гана";
+		words[1] = "вана";
+		words[2] = "чам";
+		words[3] = "чан";
+		words[4] = "мач";
+		words[5] = "мяч";
+		words[6] = "нота";
+		words[7] = "жата";
+		words[8] = "жома";
+		words[9] = "мажо";
+		words[10] = "гоня";
+		words[11] = "ячо";
+		words[12] = "яго";
+		words[13] = "гао";
+		words[14] = "жятн";
+		words[15] = "чочо";
+		words[16] = "чат";
+		words[17] = "чятмо";
+		words[18] = "чачача";
+		words[19] = "вачо";
+		words[20] = "жат";
+		words[21] = "чага";
+		words[22] = "анатом";
+		words[23] = "атом";
+		words[24] = "оногам";
+		words[25] = "гама";
+		words[26] = "янтма";
 
-		return stringGenerator(chars);
+		return stringGenerator(words);
 	}
 
 
@@ -133,52 +161,62 @@ public class StringGenerator {
 
 	static String Cyrillic4() { // Cyrilic Capital letters
 
-		char chars[] = new char[24];
-		chars[0] = ' ';
-		chars[1] = ' ';
-		chars[2] = ' ';
-		chars[3] = ' ';
-		chars[4] = ' ';
-		chars[5] = 'о';
-		chars[6] = 'т';
-		chars[7] = 'н';
-		chars[8] = 'в';
-		chars[9] = 'м';
-		chars[10] = 'ж';
-		chars[11] = 'Ж';
-		chars[12] = 'г';
-		chars[13] = 'Г';
-		chars[14] = 'Я';
-		chars[15] = 'А';
-		chars[16] = 'Г';
-		chars[17] = 'М';
-		chars[18] = 'В';
-		chars[19] = 'О';
-		chars[20] = 'Ж';
-		chars[21] = 'Т';
-		chars[22] = 'Т';
-		chars[23] = 'а';
+		String words[] = new String[33];
+		words[0] = "Гана";
+		words[1] = "вана";
+		words[2] = "чам";
+		words[3] = "чан";
+		words[4] = "мач";
+		words[5] = "мяч";
+		words[6] = "НОТА";
+		words[7] = "Жата";
+		words[8] = "Жома";
+		words[9] = "Мажо";
+		words[10] = "гоня";
+		words[11] = "Ячо";
+		words[12] = "Яго";
+		words[13] = "ГАО";
+		words[14] = "ЖЯТ";
+		words[15] = "Чочо";
+		words[16] = "чат";
+		words[17] = "Чятмо";
+		words[18] = "ЧаЧаЧа";
+		words[19] = "Вачо";
+		words[20] = "жат";
+		words[21] = "чага";
+		words[22] = "анатом";
+		words[23] = "атом";
+		words[24] = "оногам";
+		words[25] = "гама";
+		words[26] = "янтма";
+		words[27] = "Ачо";
+		words[28] = "Ванчо";
+		words[29] = "Ваньо";
+		words[30] = "Ана";
+		words[31] = "Анчо";
+		words[32] = "Яна";
+		return stringGenerator(words);
 
-		return stringGenerator(chars);
+		
 	}
 
 	static String Cyrillic5() { // , у е и ш
 
-		String words[] = new String[24];
+		String words[] = new String[31];
 
 		words[0] = "нива";
 		words[1] = "Жена";
 		words[2] = "Мими,";
 		words[3] = "внимавам,";
 		words[4] = "нужен,";
-		words[5] = "Яна";
+		words[5] = "мента";
 		words[6] = "монета,";
 		words[7] = "ум,";
 		words[8] = "мога";
 		words[9] = "шина";
 		words[10] = "течен";
 		words[11] = "гонение";
-		words[12] = "шаман,";
+		words[12] = "маша,";
 		words[13] = "ужа,";
 		words[14] = "вуги";
 		words[15] = "Иеу";
@@ -187,9 +225,17 @@ public class StringGenerator {
 		words[18] = "уважение,";
 		words[19] = "Мания";
 		words[20] = "тен";
-		words[21] = "Иван";
+		words[21] = "Иван,";
 		words[22] = "мачта";
-		words[23] = "мечти";
+		words[23] = "мечти,";
+		words[24] = "витамин";
+		words[25] = "шише,";
+		words[26] = "ж,у,е,и";
+		words[27] = "нуга";
+		words[28] = "Иван";
+		words[29] = "течение,";
+		words[30] = "мечти";
+		words[31] = "машина";
 		
 		return stringGenerator(words);
 	}
@@ -210,7 +256,7 @@ public class StringGenerator {
 		words[10] = "Везни,";
 		words[11] = "вестник";
 		words[12] = "момче,";
-		words[13] = "тоник";
+		words[13] = "Тоник";
 		words[14] = "костница";
 		words[15] = "зодиак";
 		words[16] = "музика,";
@@ -221,7 +267,21 @@ public class StringGenerator {
 		words[21] = "система";
 		words[22] = "континент";
 		words[23] = "Игнажден";
-
+		words[24] = "Костенец,";
+		words[25] = "цаца";
+		words[26] = "Цеца,";
+		words[27] = "Моника";
+		words[28] = "своя";
+		words[29] = "зодия";
+		words[30] = "кожа";
+		words[31] = "Закон";
+		words[32] = "цена";
+		words[33] = "щик";
+		words[34] = "щастие";
+		words[35] = "щастие";
+		words[36] = "щом";
+		words[37] = "Игнажден";
+		
 		return stringGenerator(words);
 	}
 
@@ -265,7 +325,50 @@ public class StringGenerator {
 		return stringGenerator(words);
 	}
 
-	static String Cyrillic8() {
+	
+
+	static String Cyrillic8() { // ю й ъ ф
+
+		String words[] = new String[33];
+		words[0] = "форма";
+		words[1] = "фирма";
+		words[2] = "фехтовка";
+		words[3] = "ФИФА";
+		words[4] = "фаворит";
+		words[5] = "фармация";
+		words[6] = "ютия";
+		words[7] = "юнак,";
+		words[8] = "Йово";
+		words[9] = "въртолет";
+		words[10] = "ъгъл";
+		words[11] = "юни";
+		words[12] = "Юлия";
+		words[13] = "юли";
+		words[14] = "люлка,";
+		words[15] = "люлея";
+		words[16] = "Йордан";
+		words[17] = "Фъртуна";
+		words[18] = "край";
+		words[19] = "Рай";
+		words[20] = "славей";
+		words[21] = "Менелай";
+		words[22] = "омайна";
+		words[23] = "маймуна";
+		words[24] = "най";
+		words[25] = "налей";
+		words[26] = "Лейла";
+		words[27] = "пепелянка";
+		words[28] = "Обичам";
+		words[29] = "риба";
+		words[30] = "Рила планина";
+		words[31] = "Родопа планина";
+		words[32] = "панаир";
+
+		return stringGenerator(words);
+	}
+	
+	
+	static String Cyrillic9() {  //текст
 
 		String words[] = new String[5];
 
